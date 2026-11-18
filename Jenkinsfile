@@ -1,6 +1,6 @@
 
 pipeline {
-    agent ec2
+    agent any
 
     stages {
 
@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building application'
-                sh 'echo Build Successful'
+                sh ' Build Successful'
             }
         }
 
