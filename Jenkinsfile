@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building application'
-                sh ' Build Successful'
+                sh 'echo Build Successful'
             }
         }
 
