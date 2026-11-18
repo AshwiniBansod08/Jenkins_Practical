@@ -1,6 +1,6 @@
 
 pipeline {
-    agent any
+    agent ec2
 
     stages {
 
